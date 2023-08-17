@@ -18,6 +18,7 @@ import lombok.Data;
  *
  * @author LABORATORIO 04
  */
+//Se establece la entidad rol
 @Entity
 @Data
 @Table(name = "Roles")
@@ -27,13 +28,8 @@ public class Rol implements Serializable{
     
      @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idRol;
+    private Long id;
     
      @NotEmpty
     private String nombre;
-     
-     @Column(name = "id")
-    private Long id;
-    
-    
 }

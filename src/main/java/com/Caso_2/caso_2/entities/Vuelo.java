@@ -16,6 +16,7 @@ import lombok.Data;
  *
  * @author LABORATORIO 04
  */
+//Se establece la entidad vuelo
 @Entity
 @Table(name = "Vuelos")
 
@@ -32,7 +33,4 @@ public class Vuelo {
     private String fecha_salida;
     private String fecha_llegada;
     private String modelo_avion;
-    
-    
-    
 }
